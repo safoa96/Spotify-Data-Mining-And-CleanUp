@@ -1,10 +1,10 @@
 ## About the Project:-
-Hello and welcome to our Spotify DSCI-511 class project! 🎶 We're here to explore the wonderful world of music, taking a close look at the most popular songs of 2022. Our dataset, filled with information from Spotify, reveals everything you need to know about each track. We'll be covering things like the most popular music genres, the highest-ranked songs, danceability ratings, and more. Let's dive into the exciting realm of music together! 🎵
+Hello and welcome to my Spotify project! 🎶 We're here to explore the wonderful world of music, taking a close look at the most popular songs of 2022. My dataset, filled with information from Spotify, reveals everything you need to know about each track. I'll be covering things like the most popular music genres, the highest-ranked songs, danceability ratings, and more. Let's dive into the exciting realm of music together! 🎵
 
 This project not only explores the depths of 2022's chart-toppers but also leverages Python application in web scrapping and the use of Spotify Web APIs. 
 
 ###### Wikipedia 
-First we decided to carry out web scrapping (using BeautifulSoup) from the wikipedia page that contains the top streamed songs with specific attributes such as:
+First I decided to carry out web scrapping (using BeautifulSoup) from the wikipedia page that contains the top streamed songs with specific attributes such as:
 - **Rank**- Position a song is placed based on criteria such as highest streams
 - **Artist** - Name of an artist of a song
 - **Song** - Name of the song
@@ -12,9 +12,9 @@ First we decided to carry out web scrapping (using BeautifulSoup) from the wikip
 - **Publish_date** - Date the song was released (provided in day, months, and year)
 
 ###### Spotify API
-To obtain more data, we set up a developer account on the Spotify website to gain access to the Spotify API. To interact with the API, we utilized a Python library called Spotipy, which is designed specifically for the Spotify Web API. Spotipy is a simple and efficient tool that allows us to tap into the extensive music data offered by the Spotify platform.
+To obtain more data, I set up a developer account on the Spotify website to gain access to the Spotify API. To interact with the API, I utilized a Python library called Spotipy, which is designed specifically for the Spotify Web API. Spotipy is a simple and efficient tool that allows us to tap into the extensive music data offered by the Spotify platform.
 
-To connect with the Spotify API, we obtained essential credentials, including the Client ID, from the developer dashboard. This involved creating a new application to acquire the necessary information for accessing the web API seamlessly..
+To connect with the Spotify API, I obtained essential credentials, including the Client ID, from the developer dashboard. This involved creating a new application to acquire the necessary information for accessing the web API seamlessly..
 
 
 ![API-%20Dashboard.png](attachment:API-%20Dashboard.png)
@@ -25,7 +25,7 @@ You should get something like this as part of your credentials -
 
 *Client secret = "1572c8ca77074fbcad0ad225dxxxxx"*
 
-Through the API call, we successfully retrieved a variety of information. Among the wealth of data available, we carefully selected the most relevant details for our project. These include:
+Through the API call, I successfully retrieved a variety of information. Among the wealth of data available, I carefully selected the most relevant details for my project. These include:
 
 - **Artist**: Identifying the creator of the music. Data type - String
 - **Followers**: Counting the number of people following a particular artist. Data type - Integer
@@ -38,7 +38,7 @@ Through the API call, we successfully retrieved a variety of information. Among 
 
 ###### Extra Features
 
-We also pulled in more data relevant to our project objectives;
+I also pulled in more data relevant to our project objectives;
 
 
 - **Acousticness** - A confidence measure from 0.0 to 1.0 of whether the track is acoustic. 1.0 represents high confidence; the track is acoustic. Data type - Float
@@ -63,10 +63,10 @@ Spotify: https://open.spotify.com/playlist/0JiVp7Z0pYKI8diUV6HJyQ?si=24006a7dad1
 
 
 ## Challenge
-Time constraints - There was some time constraint in putting togtehr this project as we had to change projects a number of times due to different challenges.
+Time constraints - There was some time constraint in putting togther this project as I had to change projects a number of times due to different challenges.
 Cost - Many API versions required payment of huge sums before being able to use them.
-Documentation Quality - We had to deal with the issue of inadequate and inconsistent data documentation which hindered our use and understanding of some APIs.
-Limited Functionality - We found it challenging finding an API that provided us with the kind of data we were looking for.
+Documentation Quality - I had to deal with the issue of inadequate and inconsistent data documentation which hindered our use and understanding of some APIs.
+Limited Functionality - I found it challenging finding an API that provided us with the kind of data we were looking for.
 Data Quality - Inconsistencies, inaccuracies and lots of null values in certain data sets.
 
 ## Limitations
