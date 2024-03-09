@@ -1,17 +1,3 @@
-# Most Streamed Spotify Songs 2022 Analysis
-## Description:- DSCI-511 Class Project
-## Group member 1
-##    - Name: Precious Orekha
-##    - Email: poo27@drexel.edu
-
-## Group member 2
-##    -Name: Nana Afua Martinson
-##    - Email: nsm86@drexel.edu
-
-## Group member 3
-##    - Name: Sara Javaheri
-##    - Email: sj3255@drexel.edu
-
 ## About the Project:-
 Hello and welcome to our Spotify DSCI-511 class project! 🎶 We're here to explore the wonderful world of music, taking a close look at the most popular songs of 2022. Our dataset, filled with information from Spotify, reveals everything you need to know about each track. We'll be covering things like the most popular music genres, the highest-ranked songs, danceability ratings, and more. Let's dive into the exciting realm of music together! 🎵
 
